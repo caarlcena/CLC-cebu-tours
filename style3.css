@@ -36,8 +36,12 @@ header a:hover{
     background-color: #a7dde4c0;
 }
 h1, p{
+  display: flex;
   margin-top: 20px;
+  max-width: 100%;
+  justify-content: center;
   text-align: center;
+  padding: 0px 5px;
   filter: blur(20px);
   opacity: 0;
   animation: showContent 1s linear 1 forwards;
@@ -91,4 +95,14 @@ section{
     padding: 10px 10px 10px 10px;
     gap: 10px;
   }
+  .images img{
+    display: flex;
+    width: 380px;
+    height: 550px;
+    filter: blur(25px);
+    opacity: 0;
+    animation: showImage 2s 1s linear 1 forwards;
+  }
+  
 }
+
