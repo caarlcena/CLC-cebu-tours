@@ -175,9 +175,9 @@ header a:hover{
 }
 
 .arrows button{
-  width: px;
+  width: 50px;
   height: 40px;
-  border-radius: 20%;
+  border-radius: 50%;
   background-color: rgba(7, 7, 7, 0.979);
   font-family: Poppins;
   font-weight: bold;
@@ -185,6 +185,7 @@ header a:hover{
   border: none;
   transition: .5s;
   z-index: 1;
+  object-fit: cover;
 }
 
 .arrows button:hover{
@@ -379,6 +380,7 @@ header a:hover{
     max-width: 30%;
     display: flex;
     gap: 10px;
+    border-radius: 50%;
   }
 }
 
